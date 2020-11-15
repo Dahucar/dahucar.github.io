@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on GifGrid component Should be displayed the gif items when the images is loading 1`] = `
+<Fragment>
+  <h3>
+     
+    ASUS
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC01"
+      key="ABC01"
+      title="Test img 01"
+      url="https://test/url/ABC01"
+    />
+    <GifGridItem
+      id="ABC02"
+      key="ABC02"
+      title="Test img 02"
+      url="https://test/url/ABC02"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Testing on GifGrid component Should generate snapshot of GifGrid component 1`] = `
+<Fragment>
+  <h3>
+     
+    ASUS
+     
+  </h3>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

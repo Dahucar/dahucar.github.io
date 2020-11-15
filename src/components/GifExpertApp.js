@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import AddCategory from './AddCategory';
 import { GifGrid } from './GifGrid';
 
-const GitExpertApp = () => {
+const GitExpertApp = ({ defaultCategories = []}) => {
   // el listado de categorias se enviara por refencia a los compoenentes que se deseen
-  const [categories, setCategories] = useState([ 'Halo' ]);
+  const [categories, setCategories] = useState( defaultCategories );
   return (
     <>
       <h2>Gif Expert App</h2>

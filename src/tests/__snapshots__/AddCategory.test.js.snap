@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on AddCategory Component the AddCategory component should be show with not problem 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Ingrese un nombre"
+    type="text"
+    value=""
+  />
+  <span />
+</form>
+`;

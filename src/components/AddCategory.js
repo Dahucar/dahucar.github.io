@@ -9,6 +9,7 @@ const AddCategory = ({ setCategories }) => {
   }
 
   const handleSubmitForm = ( e ) => {
+    console.log('handleSubmitForm', inputValue);
     e.preventDefault();
     // a qui se llama al metodo que se recive desde los props en el por referencia se tendra el listado de categorias.
 

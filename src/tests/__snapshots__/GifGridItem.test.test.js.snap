@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on GifGridItem Component Should generate snapshot of GifGridItem Component 1`] = `
+<div
+  className="card animate__animated animate__bounce animate__fadeOut"
+>
+  <h4>
+    test title
+  </h4>
+  <img
+    alt="test title"
+    src="https://test/url"
+  />
+</div>
+`;
